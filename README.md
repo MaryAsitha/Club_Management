@@ -14,11 +14,8 @@ The project is built with a modular backend architecture and is planned to integ
 
 
 
-Add, view, and delete club members
-
-
-
-Role-based members (President, Vice President, Secretary, Member)
+* Add, view, and delete club members
+* Role-based members (Officers, Year Incharge, Event Managers, Member)
 
 
 
@@ -26,11 +23,8 @@ Role-based members (President, Vice President, Secretary, Member)
 
 
 
-Create and manage club events
-
-
-
-Track event schedules, venues, and descriptions
+1. Create and manage club events
+2. Track event schedules, venues, and descriptions
 
 ##### 
 
@@ -38,11 +32,8 @@ Track event schedules, venues, and descriptions
 
 
 
-Post important club announcements
-
-
-
-View and manage announcements centrally
+1. Post important club announcements
+2. View and manage announcements centrally
 
 
 
@@ -50,11 +41,8 @@ View and manage announcements centrally
 
 
 
-Manage college/club-day bus schedules
-
-
-
-Easy access for students
+1. Manage college/club-day bus schedules
+2. Easy access for students
 
 
 
@@ -62,15 +50,9 @@ Easy access for students
 
 
 
-Mark attendance for events
-
-
-
-Store attendance records per member
-
-
-
-Designed for future Geo \& Wi-Fi attendance integration
+1. Mark attendance for events
+2. Store attendance records per member
+3. Designed for future Geo \& Wi-Fi attendance integration
 
 
 
@@ -78,15 +60,9 @@ Designed for future Geo \& Wi-Fi attendance integration
 
 
 
-Total members, events, announcements
-
-
-
-Role distribution (for charts)
-
-
-
-Events per month statistics
+1. Total members, events, announcements
+2. Role distribution (for charts)
+3. Events per month statistics
 
 
 
@@ -94,61 +70,46 @@ Events per month statistics
 
 
 
-Monitor absentee records
-
-
-
-Identify frequently absent members
+1. Monitor absentee records
+2. Identify frequently absent members
 
 
 
 ### 🛠 Tech Stack
 
-Backend
+
+
+* Node.js
 
 
 
-Node.js
+* Express.js
 
 
 
-Express.js
+* MongoDB Atlas
 
 
 
-MongoDB Atlas
+* Mongoose
 
 
 
-Mongoose
+* Frontend
 
 
 
-dotenv
+* React (Vite)
 
 
 
-Frontend (In Progress)
+* Bootstrap / CSS
 
 
 
-React (Vite)
+* Postman – API testing
 
 
-
-Bootstrap / CSS
-
-
-
-Tools
-
-
-
-Postman – API testing
-
-
-
-Git \& GitHub – Version control
 
 
 
@@ -268,7 +229,7 @@ Server will run at:
 
 
 
-http://localhost:5000
+*http://localhost:5000*
 
 
 
@@ -301,10 +262,6 @@ GET /api/dashboard
 
 
 GET /api/monitoring
-
-
-
-👉 Postman testing ensures backend stability before frontend integration.
 
 
 
